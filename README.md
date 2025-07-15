@@ -1,19 +1,28 @@
-# Minimal FastAPI Example
+### FastAPI Example Project
+This repository provides a minimal FastAPI application optimized for deployment on [Seenode](https://seenode.com), a modern cloud platform for developers.
 
-This is a minimal FastAPI project created for a cloud provider's documentation guide.
+This example is designed to be deployed directly from your Git repository with zero configuration.
 
-## Running the application
+## Deploying on Seenode
 
-1.  Install the dependencies:
+You can deploy this application on Seenode in a few clicks:
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+1.  **Connect Your Repo**: Go to the [Seenode dashboard](https://cloud.seenode.com), create a new **Web Service**, and authorize Seenode to access this repository.
+2.  **Configure and Deploy**: Seenode automatically detects this is a Python project and suggests the correct settings.
+    *   **Build Command**: `pip install -r requirements.txt`
+    *   **Start Command**: `uvicorn main:app --host 0.0.0.0 --port $PORT`
+3.  Click **Create Web Service** to deploy.
 
-2.  Run the application:
+Your application will be live on a public URL as soon as the deployment finishes.
 
-    ```bash
-    uvicorn main:app --reload
-    ```
+### Key Seenode Features for FastAPI
 
-The application will be available at `http://127.0.0.1:8000`.
+*   **Automatic Detection**: Seenode identifies the `requirements.txt` file and configures the Python environment for you.
+*   **`$PORT` Injection**: Seenode automatically injects the `$PORT` environment variable, so the application correctly binds to the port assigned by the platform without any code changes.
+*   **Git-Based Deploys**: Every `git push` to your connected branch automatically triggers a new, updated deployment.
+
+### Deploy in minutes
+View our [guide on deploying fastapi apps](https://seenode.com/docs/services/web-services/framework-guides/python/fastapi/) on [seenode](https://seenode.com) in seconds.
+
+
+***
