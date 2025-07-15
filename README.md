@@ -1,7 +1,10 @@
 ### FastAPI Example Project
-This repository provides a minimal FastAPI application optimized for deployment on [Seenode](https://seenode.com), a modern cloud platform for developers.
+This is a repo for deploying a minimal FastAPI application on [Seenode](https://seenode.com), a modern cloud platform for developers.
 
 This example is designed to be deployed directly from your Git repository with zero configuration.
+
+### Deploy in minutes
+View our [guide on deploying fastapi apps](https://seenode.com/docs/services/web-services/framework-guides/python/fastapi/) on [seenode](https://seenode.com) in seconds.
 
 ## Deploying on Seenode
 
@@ -20,9 +23,5 @@ Your application will be live on a public URL as soon as the deployment finishes
 *   **Automatic Detection**: Seenode identifies the `requirements.txt` file and configures the Python environment for you.
 *   **`$PORT` Injection**: Seenode automatically injects the `$PORT` environment variable, so the application correctly binds to the port assigned by the platform without any code changes.
 *   **Git-Based Deploys**: Every `git push` to your connected branch automatically triggers a new, updated deployment.
-
-### Deploy in minutes
-View our [guide on deploying fastapi apps](https://seenode.com/docs/services/web-services/framework-guides/python/fastapi/) on [seenode](https://seenode.com) in seconds.
-
 
 ***
