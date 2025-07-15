@@ -1,4 +1,5 @@
-### FastAPI Example Project
+# Deploy FastAPI on Seenode in seconds
+
 This is a repo for deploying a minimal FastAPI application on [Seenode](https://seenode.com), a modern cloud platform for developers.
 
 This example is designed to be deployed directly from your Git repository with zero configuration.
