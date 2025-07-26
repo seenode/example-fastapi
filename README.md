@@ -5,7 +5,7 @@ This is a repo for deploying a minimal but production-ready Node.js Express appl
 This example demonstrates how to deploy a simple Express app.
 
 ### Deploy in minutes
-View our [guide on deploying Express apps](https://seenode.com/docs/services/web-services/framework-guides/javascript/express/) on [seenode](https://seenode.com) in seconds.
+View our [guide on deploying Express apps](https://seenode.com/docs/frameworks/javascript/express/) on [seenode](https://seenode.com) in seconds.
 
 
 ## How to Deploy on Seenode
