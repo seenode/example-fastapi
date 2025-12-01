@@ -5,7 +5,7 @@ This is a repo for deploying a minimal FastAPI application on [Seenode](https://
 This example is designed to be deployed directly from your Git repository with zero configuration.
 
 ### Deploy in minutes
-View our [guide on deploying fastapi apps](https://seenode.com/docs/services/web-services/framework-guides/python/fastapi/) on [seenode](https://seenode.com) in seconds.
+View our [guide on deploying fastapi apps](https://seenode.com/docs/frameworks/python/fastapi/) on [seenode](https://seenode.com) in seconds.
 
 ## Deploying on Seenode
 
