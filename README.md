@@ -22,7 +22,7 @@ Your application will be live on a public URL as soon as the deployment finishes
 ### Key Seenode Features for FastAPI
 
 *   **Automatic Detection**: Seenode identifies the `requirements.txt` file and configures the Python environment for you.
-*   **Port Binding**: This example is configured to listen on port 80. Ensure your application code binds to this port, or whatever port you set when deploying your application.
+*   **Port Binding**: This example is configured to listen on port 80. Set the Port field in the Seenode dashboard to `80` to match.
 *   **Git-Based Deploys**: Every `git push` to your connected branch automatically triggers a new, updated deployment.
 
 ***
